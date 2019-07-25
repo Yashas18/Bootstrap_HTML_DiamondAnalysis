@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styleBand.css">
+</head>
+<body>
+
+  
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="MainDiamondAnalysis.html"><strong>Home</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Comparison.html">Comparison</a></li>
+        <li><a href="Data.html">Data</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plot
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+           <li><a href="1_Carat_distribution_by_Cuts.html">Carat distribution by Cuts</a></li>
+		  <li><a href="2_BarHist_PricebyCuts.html">Price Distribution by Cuts</a></li>
+            <li><a href="3_Carat_distribution_by_Colors.html">Carat distribution by Colors</a></li>
+			<li><a href="4_BarHist_PricebyColor.html">Price Distribution by Colors</a></li>
+			<li><a href="5_Carat_distribution_by_Clarity.html">Carat distribution by Clarity</a></li>
+			<li><a href="6_BarHist_PricebyClarity.html">Price Distribution by Clarity</a></li>
+            <li><a href="7_CountByColorandCut.html">Count By Color and Cut</a></li>
+			<li><a href="8_CountByClarityandCut.html">Count By Clarity and Cut</a></li>
+			<li><a href="9_Caret_vs_Price.html">Caret by Price</a></li>
+			<li><a href="10_CountByCut.html">Count By Cut</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<style>
+img {
+  float: left;
+}
+</style>
+<div class="container bg-1 text-center"" >
+
+ <p><strong><h2>Diamond Count by Colors and Cuts</h2></strong></p>
+ <div class="col-lg-12 col-md-12 col-sm-12">
+     
+	   <img src="CountByColorandCut.png" alt="..."class="img-thumbnail" data-toggle="tooltip" title="Diamond Count by Colors and Cuts" 
+	   style="width:600px;height:400px;margin-right:30px;margin-left:-20px;">
+	   <p align="left">From the chart, we observe that in the distribution of 54,000 diamonds, 
+	   most of the diamonds lie in the bucket of Color G (which is medium desirable on the scale 
+	   of Color) and Cut ‘Ideal’ (which is the most desirable Cut). <br><br>
+		We also notice a more prominent reduction in the number of diamonds as we move from ‘Ideal’ 
+		Cut to ‘Fair’ Cut than we do notice while we move across Colors from G on the either end of 
+		the spectrum. Hence, we can possibly conclude that ‘Cut’ is a more important feature as compared to the Color while analysing and valuing diamonds.
+		</p>
+		
+    </div>
+
+
+
+
+</body>
+</html>
+

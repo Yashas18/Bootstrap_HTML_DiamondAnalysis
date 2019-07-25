@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styleBand.css">
+</head>
+<body>
+
+  
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="MainDiamondAnalysis.html"><strong>Home</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Comparison.html">Comparison</a></li>
+        <li><a href="Data.html">Data</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plot
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+           <li><a href="1_Carat_distribution_by_Cuts.html">Carat distribution by Cuts</a></li>
+		  <li><a href="2_BarHist_PricebyCuts.html">Price Distribution by Cuts</a></li>
+            <li><a href="3_Carat_distribution_by_Colors.html">Carat distribution by Colors</a></li>
+			<li><a href="4_BarHist_PricebyColor.html">Price Distribution by Colors</a></li>
+			<li><a href="5_Carat_distribution_by_Clarity.html">Carat distribution by Clarity</a></li>
+			<li><a href="6_BarHist_PricebyClarity.html">Price Distribution by Clarity</a></li>
+            <li><a href="7_CountByColorandCut.html">Count By Color and Cut</a></li>
+			<li><a href="8_CountByClarityandCut.html">Count By Clarity and Cut</a></li>
+			<li><a href="9_Caret_vs_Price.html">Caret vs Price</a></li>
+			<li><a href="10_CountByCut.html">Count By Cut</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<style>
+img {
+  float: left;
+}
+</style>
+<div class="container bg-1 text-center"" >
+
+ <p><strong><h2>Diamond Carat Distribution by Colors</h2></strong></p>
+ <div class="col-lg-12 col-md-12 col-sm-12">
+     
+	   <img src="Carat_distribution_by_Colors.png" alt="..."class="img-thumbnail" data-toggle="tooltip" title="Diamond Carat distribution by Color"
+		style="width:600px;height:400px;margin-right:30px;margin-left:-20px;">
+		<p align="left">The width of the box plot corresponds to the number of diamonds in the respective category. 
+		J is the least desirable where as D is the most desirable in terms of Color.<br><br>
+		From the chart, we observe that I and J, which are the worst Colors for diamonds, have the least number of diamonds. 
+		Also, the Carats in these categories have the widest range of distribution with relatively higher number of outliers 
+		and with the highest medians. The diamond with the highest Carat count (of approx. 5) lies in J. <br><br>
+		As we move from J to D, the median Carat count decreases, with D, which is the best Color of diamond, having the 
+		least median Carat count. We can possibly conclude that better Color in diamonds are associated with a lower Carat count.
+		</p>
+		
+    </div>
+
+
+
+
+</body>
+</html>
+
